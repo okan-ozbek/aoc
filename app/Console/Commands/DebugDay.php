@@ -25,12 +25,10 @@ class DebugDay extends Command
      */
     public function handle()
     {
-        $day = new \App\AOC\TwentyThree\code\Days\Two();
+        $day = new \App\AOC\TwentyThree\code\Days\Four();
 
         // write result of part one to console
-        //$this->info('Part one: ' . $day->solvePartA());
+        $this->info('Part one: ' . $day->solvePartA());
         //$this->info('Part two: ' . $day->solvePartB());
-        $this->info('Day 2 - Part 1: ' . $day->solvePartA());
-        $this->info('Day 2 - Part 2: ' . $day->solvePartB());
     }
 }
